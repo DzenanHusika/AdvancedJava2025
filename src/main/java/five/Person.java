@@ -25,6 +25,9 @@ public class Person implements Serializable, Comparable<Person> {
         this.gender = gender;
     }
 
+    public Person(String danko, String divković, LocalDate of) {
+    }
+
     public String getName() {
         return name;
     }
